@@ -1,7 +1,9 @@
+/* font */
 @font-face{
     font-family: 'Poppins';
     src: url(./fonts/Poppins/Poppins-Bold.ttf);
 }
+/* all */
 *{
     background-color: #202020;
     font-family: 'Poppins';
@@ -18,11 +20,12 @@ a{
 .lightgray-text{
     color: #8F8F8F;
 }
-ul{
+/* header */
+.ul-header{
     display: flex;
     justify-content: center;
 }
-li{
+.li-header{
     float: right;
     padding-left: 60px;
     list-style-type: none;
@@ -33,7 +36,7 @@ a:hover{
 }
 /* section1 */
 .section1{
-    height: 1080px;
+    height: 700px;
     width: 100%;
 }
 .texts1{
@@ -91,4 +94,40 @@ a:hover{
 .botton{
     margin-left: 192px;
     margin-top: 40px;
+}
+/* social medias */
+.circle{
+    position: relative;
+    background-color: #353535;
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+}
+.social-medias{
+    float: inline-start;
+}
+.social-medias{
+    margin-left: 120px;
+}
+.sm{
+    float: left;
+    padding-left: 31px;
+    list-style-type: none;
+}
+.instagram,.github,.linkdin,.deribbble,.bahance{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+}
+/* section2 */
+.section2{
+    background-color:#161616 ;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me{
+    font-size: 50px;
 }
