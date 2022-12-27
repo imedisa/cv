@@ -22,6 +22,10 @@ a{
 .lightgray-text{
     color: #8F8F8F;
 }
+.center{
+    display: flex;
+    justify-content: center;
+}
 /* header */
 .ul-header{
     display: flex;
@@ -140,6 +144,18 @@ a:hover{
 .margin-top-m{
     margin-top: 146px;
 }
+/* section3 */
 .section3{
     height: 617px;
+}
+.my-services{
+    font-size:38px ;
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
+}
+.mobile1,.ui,.moshak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
