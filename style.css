@@ -5,8 +5,10 @@
 }
 /* all */
 *{
-    background-color: #202020;
     font-family: 'Poppins';
+}
+body{
+    background-color: #202020;
 }
 a{
     text-decoration: none;
@@ -36,12 +38,12 @@ a:hover{
 }
 /* section1 */
 .section1{
-    height: 700px;
+    height: 780px;
     width: 100%;
 }
 .texts1{
     margin-left: 192px;
-    margin-top: 200px;
+    margin-top: 165px;
 }
 .name{
     font-size: 44px;
@@ -123,11 +125,21 @@ a:hover{
 /* section2 */
 .section2{
     background-color:#161616 ;
-    height: 500px;
+    text-align: center;
+    height: 575px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 .about-me{
     font-size: 50px;
+    display: block;
+}
+.margin-top-m{
+    margin-top: 146px;
+}
+.section3{
+    height: 617px;
 }
