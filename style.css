@@ -22,6 +22,9 @@ a{
 .lightgray-text{
     color: #8F8F8F;
 }
+.gray-text{
+    color: #C1C1C1;
+}
 .center{
     display: flex;
     justify-content: center;
@@ -37,7 +40,7 @@ a{
     list-style-type: none;
     font-size: 20px;
 }
-a:hover{
+.a-header:hover{
     font-size: 24px;
 }
 /* section1 */
@@ -120,11 +123,11 @@ a:hover{
     padding-left: 31px;
     list-style-type: none;
 }
-.instagram,.github,.linkdin,.deribbble,.bahance{
+.instagram,.github,.linkdin,.dribbble,.bahance{
     position: absolute;
-    display: flex;
-    justify-content: center;
-
+    top: 50%;
+    left:50% ;
+    transform: translate(-50%,-50%);
 }
 /* section2 */
 .section2{
@@ -146,16 +149,38 @@ a:hover{
 }
 /* section3 */
 .section3{
-    height: 617px;
+    height: 480px;
 }
 .my-services{
     font-size:38px ;
     display: flex;
     justify-content: center;
-    margin-top: 84px;
+    margin-top: 120px;
 }
 .mobile1,.ui,.moshak{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.services-r1, .services-r2{
+   flex:0 0 50%;
+   max-width: 50%;  
+   display: flex;
+   justify-content: center; 
+   flex-direction: column;
+}
+/* section4 */
+.section4{
+    height: 894px;
+    background-color: #161616;
+}
+.section4-text{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    
+}
+.education, .jobs{
+    margin-top: 95px;
+}
+/* section5 */

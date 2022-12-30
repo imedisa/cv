@@ -12,10 +12,10 @@
     <header>
         <div >
             <ul class="ul-header">               
-                <li class="li-header" ><a class="green-text" href="https://google.com/">Home</a></li>
-                <li class="li-header" ><a class="white-text" href="https://google.com/">About me</a></li>
-                <li class="li-header" ><a class="white-text" href="https://google.com/">Projects</a></li>
-                <li class="li-header" ><a class="white-text" href="https://google.com/">contact</a></li>
+                <li class="li-header" ><a class="a-header green-text" href="https://google.com/">Home</a></li>
+                <li class="li-header" ><a class="a-header white-text" href="https://google.com/">About me</a></li>
+                <li class="li-header" ><a class="a-header white-text" href="https://google.com/">Projects</a></li>
+                <li class="li-header" ><a class="a-header white-text" href="https://google.com/">contact</a></li>
             </ul>
         </div>
     </header>
@@ -34,10 +34,10 @@
         <div class="botton">
             <div id="botton-n1">
                 <img src="./images/download-icon.svg" alt="">
-                <p class="white-text margin-left5">Download CV</p>
+                <a  class="white-text margin-left5" href="https://google.com">Download CV</a>
             </div>
             <div id="botton-n2" class="row-botton">
-                Portfolio
+                <a href="https://google.com" class="black-text" >Portfolio</a>
             </div>
         </div>
         <br>
@@ -45,26 +45,51 @@
         <ul class="social-medias">
             <li class="sm">
                 <div class="circle">
-                    <div class="instagram" ><img  src="./images/instagram.svg" alt=""></div>
+                    <div class="instagram" >
+                        <a href="https://google.com" style="display: flex;
+                        justify-content: center; align-items: center; width: 61px; height: 61px;">
+                            <img  src="./images/instagram.svg" alt="">
+                        </a>
+                    </div>
                 </div>
             </li>
             <li class="sm">
                 <div class="circle">
-                    <div class="github"><img src="./images/github.svg" alt=""></div>
+                    <div class="github">
+                        <a href="https://google.com" style="display: flex;
+                        justify-content: center; align-items: center; width: 61px; height: 61px;">
+                            <img src="./images/github.svg" alt="">
+                        </a>
+                    </div>
                 </div>
             </li>
             <li class="sm">
                 <div class="circle">
-                    <div class="linkdin"><img src="./images/LinkedIn.svg" alt=""></div>
+                    <div class="linkdin">
+                        <a href="https://google.com" style="display: flex;
+                        justify-content: center; align-items: center; width: 61px; height: 61px;">
+                            <img src="./images/LinkedIn.svg" alt="">
+                        </a>
+                    </div>
                 </div>
             </li>
             <li class="sm">
                 <div class="circle">
-                    <div class="dribbble"><img src="./images/dribbble.svg" alt=""></div>
+                    <div class="dribbble">
+                        <a href="https://google.com" style="display: flex;
+                        justify-content: center; align-items: center; width: 61px; height: 61px;">
+                            <img src="./images/dribbble.svg" alt="">
+                        </a>
+                    </div>
                 </div>
             </li>
             <li class="sm">
-                <div class="circle">\<div class="bahance"><img src="./images/behance.svg" alt="" class=""></div></div>
+                <div class="circle"><div class="bahance">
+                    <a href="https://google.com" style="display: flex;
+                    justify-content: center; align-items: center; width: 61px; height: 61px;">
+                        <img src="./images/w3.svg" alt="" class="">
+                    </a>
+                </div></div>
             </li>
         </ul>
     </section>
@@ -90,28 +115,60 @@
     <section>
         <div class="section3">
             <p class="white-text  my-services">My Services</p>
-            <div class=" servives">
-                <div class="services-l">
+            <div style="display: flex; flex-direction: row;">
+                <div class="services-r1">
                     <div class="mobile1">
-                        <img src="./images/web.svg" alt="">
-                        <p class="white-text" style="font-size: 30px; margin-left:7px;">Web Development</p>
+                        <div>
+                            <img src="./images/web.svg" alt="">
+                        </div>
+                        <p class="white-text" style="font-size: 30px; color:#E2E2E2; margin-left:7px;">Web Development</p>
                     </div>
-                    <br>
                     <div class="mobile1">
-                        <img src="./images/mobile.svg" alt="">
-                        <p class="white-text" style="font-size: 30px; margin-left:7px;">Mobile Development</p>
+                        <div>
+                            <img src="./images/mobile.svg" alt="">
+                        </div>
+                        <p class="white-text" style="font-size: 30px; color:#E2E2E2; margin-left:7px;">Mobile Development</p>
                     </div>
                 </div>
-                <div class="services-r">
+                <div class="services-r2">
                     <div class="ui">
-                        <img src="./images/ui.svg" alt="">
-                        <p class="white-text" style="font-size: 30px; margin-left:7px;">UI Design</p>
+                        <div>
+                            <img src="./images/ui.svg" alt="">
+                        </div>
+                        <p  style="font-size: 30px; color:#E2E2E2; margin-left:7px;">UI Design</p>
                     </div>
-                    <br>
                     <div class="moshak">
-                        <img src="./images/moshak.svg" alt="">
-                        <p class="white-text" style="font-size: 30px; margin-left:7px;">Social Media Design</p>
+                        <div>
+                            <img src="./images/moshak.svg" alt="">
+                        </div>
+                        <p class="white-text" style="font-size: 30px; color:#E2E2E2; margin-left:7px;">Social Media Design</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section4 -->
+    <section class="section4">
+        <div class="section4-text">
+            <div class="education">
+                <p class="white-text" style="font-size: 38px;">Education</p><br>
+                <p class="white-text " style="font-size:22px">January 2020 - December 2023</p>
+                <p class="green-text" style="font-size:25px">Sistemas de informação</p>
+                <p class="gray-text" style="font-size: 22px;">Universidade Santa Cecília</p><br>
+                <p class="white-text" style="font-size: 22px;">August 2018 - December 2019</p>
+                <p class="green-text" style="font-size: 25px;">Técnico em Desenvolvimento <br>
+                de Sistema</p>
+                <p class="gray-text" style="font-size:22px;">Universidade Santa Cecília</p>
+            </div>
+            <div class="jobs">
+                <div>
+                    <p class="white-text" style="font-size: 38px;">Jobs</p><br>
+                    <p class="white-text " style="font-size:22px">October 2021 - January 2022</p>
+                    <p class="green-text" style="font-size:25px">IT assistant</p>
+                    <p class="gray-text" style="font-size: 22px;">Criando Valor Consultoria <br> Empresarial LTDA</p><br>
+                    <p class="white-text" style="font-size: 22px;">August 2020 - August 2021</p>
+                    <p class="green-text" style="font-size: 25px;">Front-end Developer (Intern)</p>
+                    <p class="gray-text" style="font-size:22px;">Criando Valor Consultoria <br> Empresarial LTDA</p>
                 </div>
             </div>
         </div>
