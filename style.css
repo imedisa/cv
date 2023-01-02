@@ -25,6 +25,12 @@ a{
 .gray-text{
     color: #C1C1C1;
 }
+.white2-text{
+    color: #E2E2E2;
+}
+.b-text{
+    color: #202020;
+}
 .center{
     display: flex;
     justify-content: center;
@@ -182,7 +188,7 @@ a{
 }
 /* section5 */
 .section5{
-   height: 1080px; 
+   height: 800px; 
 }
 .boxes{
     display: flex;
@@ -206,7 +212,7 @@ a{
     max-width: 1200px;
     margin: 0 auto;
 }
-.box-wraper .box img {
+.box-wraper .box .main-img {
     width:100%;
     height: 321px;
     object-fit: cover;
@@ -214,4 +220,76 @@ a{
 }
 .jajaja{
     padding:0 15px;
+}
+.text-box{
+    margin-left: 25px;
+}
+.ui-design{
+    display: flex;
+    align-items: center;
+}
+.felesh{
+    display: flex;
+    align-items: center;
+}
+.live-botton{
+    width: 170px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #13FF00;
+    margin-left: 60px;
+}
+.botton-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+/* section6 */
+.section6{
+    height: 1009px;
+    background-color: #161616;
+    position: relative;
+}
+.section6-box{
+    position: absolute;
+    width: 75%;
+    height: 685px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color:#202020 ;
+    border-radius: 33px;
+    top: 50%;
+    left:50% ;
+    transform: translate(-50%,-50%);
+    display: flex;
+  justify-content: space-between;
+}
+.left-m{
+    width: 50%;
+    background: #272727 ;
+    border-radius: 0px 33px 33px 0px;
+    
+}
+.right-m{
+    position: relative;
+}
+.left-text{
+    margin: 91px 0 0 74px;
+}
+.phone, .mail, .location{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    
+}
+.right-forms{
+    position: absolute;
+    margin: 91px 0 0 45px;
+}
+form input , textarea{
+    
+    background-color: #343434;
+    border-radius: 8px;
+    border: none;
 }
